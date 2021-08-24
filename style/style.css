@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+header {
     background-color: black;
     height: 78px;
 }
-h1{
+h1 {
     display: inline-block;
 }
-h1 > a{
+h1>a {
     color: white;
     font-size: 28px;
     padding-left: 20px;
@@ -18,7 +18,7 @@ h1 > a{
     text-decoration: none;
     line-height: 80px;
 }
-.search-wrap{
+.search-wrap {
     display: inline;
     position: absolute;
     top: 20px;
@@ -26,7 +26,7 @@ h1 > a{
     margin-left: 20px;
     border: 1px solid #373737;
 }
-.search-wrap > .search{
+.search-wrap>.search {
     width: 225px;
     height: 30px;
     color: black;
@@ -34,13 +34,15 @@ h1 > a{
     border: 1px solid #373737;
     position: relative;
     padding-left: 3px;
-
+    bottom: 11px;
 }
-.search-wrap > .search-button{
+.search-wrap>.search-button {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     position: relative;
-    bottom: 6px;
     right: 5px;
+    background-image: url("../resources/search.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

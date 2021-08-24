@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    height: 78px;
+}
+h1 > a{
+    color: white;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 80px;
+}

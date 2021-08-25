@@ -17,15 +17,15 @@ h1 {
 }
 h1>a {
     color: white;
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: normal;
     padding-left: 20px;
     padding-top: 20px;
     text-decoration: none;
     line-height: 75px;
 }
 .search-wrap {
-    display: inline-block;
+    display: inline;
     position: absolute;
     top: 20px;
     height: 32px;
@@ -34,18 +34,18 @@ h1>a {
 }
 .search-wrap>.search {
     width: 225px;
-    height: 30px;
+    height: 31px;
     color: black;
     border-radius: 0;
     border: 1px solid #373737;
     position: relative;
     padding-left: 3px;
-    bottom: 11px;
+    bottom: 10px;
 }
 .search-wrap>.search-button {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 31px;
+    height: 31px;
     position: relative;
     right: 5px;
     background-image: url("../resources/search.png");

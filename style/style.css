@@ -69,15 +69,19 @@ h1>a {
 }
 .rank{
     font-size: 12px;
+    position: relative;
+    top: 10px;
 }
 .product-name{
     font-size: 12px;
+    position: relative;
+    top: 10px;
 }
 .change-rank{
     margin-left: 100px;
-    font-size: 30px;
+    font-size: 10px;
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 /*Navigation bar
 ----------------------------------*/
@@ -213,4 +217,12 @@ h1>a {
 .member-wrap > .member-list > .event:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+@media (max-width: 1500px){
+    .list-wrap {
+        display: inline;
+        position: relative;
+        left: 610px;
+        top: -2px;
+    }
 }

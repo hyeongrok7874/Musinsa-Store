@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Verdana',
+    "gulim",
+    "굴림",
+    sans-serif;
+}
 header {
     background-color: black;
     height: 78px;
@@ -11,12 +17,12 @@ h1 {
 }
 h1>a {
     color: white;
-    font-size: 28px;
+    font-size: 25px;
+    font-weight: 200;
     padding-left: 20px;
     padding-top: 20px;
-    font-weight: 500;
     text-decoration: none;
-    line-height: 80px;
+    line-height: 75px;
 }
 .search-wrap {
     display: inline-block;
@@ -70,9 +76,9 @@ h1>a {
 }
 .list-wrap{
     display: inline;
-    position: relative;
-    left: 1160px;
-    bottom: 3px;
+    position: absolute;
+    right: 1.5%;
+    top: 27px;
 }
 .list-wrap > .list{
     display: inline;
@@ -81,7 +87,7 @@ h1>a {
     display: inline;
     color: white;
     /*margin-left: 15px;*/
-    padding: 7.5px;
+    padding: 7px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -91,4 +97,20 @@ h1>a {
 .list-wrap > .list > .purple{
     color: rgb(155, 102, 255);
     padding-left: 0px;
+}
+.channel-wrap{
+    height: 50px;
+    background-color: #f3f3f3;
+}
+.channel-wrap > .channels{
+    display: inline-block;
+    padding-left: 20px;
+}
+.channel-wrap > .channels > button{
+    border: 0;
+    background-color: #f3f3f3;
+    color: #b2b2b2;
+    padding-top: 17px;
+    padding-right: 18px;
+    font-size: 14px;
 }

@@ -127,6 +127,49 @@ h1>a {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.list-wrap>.list>li>.ranking-list {
+    left: -45px;
+    display: none;
+}
+
+.list-wrap>.list>li>.update-list {
+    left: -30px;
+    display: none;
+}
+
+.list-wrap>.list>li>.style-list {
+    left: -35px;
+    display: none;
+}
+
+.list-wrap>.list>li>.special-list {
+    display: none;
+    left: -35px;
+}
+
+.list-wrap>.list>li>.content-list {
+    display: none;
+    left: -35px;
+}
+
+.list-wrap>.list>li>.sale-list {
+    display: none;
+    left: -45px;
+}
+
+.list-wrap>.list>li>.event-list {
+    display: none;
+    left: -35px;
+}
+
+.list-wrap>.list>li>.magazine-list {
+    display: none;
+    left: -35px;
+}
+
+.list-wrap>.list>li>.sale-list>.red {
+    color: red;
+}
 /*SECTION
 -----------------------*/
 /*Channel

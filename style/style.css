@@ -3,11 +3,10 @@
     padding: 0;
 }
 body{
-    font-family: 'Verdana',
-    "gulim",
-    "굴림",
-    sans-serif;
+    font-family: 'Verdana', "gulim", "굴림", sans-serif;
 }
+/*HEADER
+----------------------------*/
 header {
     background-color: black;
     height: 78px;
@@ -113,4 +112,91 @@ h1>a {
     padding-top: 17px;
     padding-right: 18px;
     font-size: 14px;
+}
+.member-wrap{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+.member-wrap > .login{
+    display: inline;
+    margin-left: 15px;
+    width: 150px;
+    height: 28px;
+    background-color: white;
+    border: 1px solid #000000;
+    font-size: 12px;
+}
+.member-wrap > .login:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.member-wrap > .member-list {
+    display: inline;
+}
+.member-wrap > .member-list > .connect::after{
+    content: '';
+    display: inline-block;
+    background-color: #eee;
+    width: 1px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.member-wrap > .member-list > .connect{
+    font-size: 12px;
+    color: #00a3ff;
+    padding: 10px;
+}
+.member-wrap > .member-list > .connect:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.member-wrap > .member-list > .members{
+    display: inline;
+}
+.member-wrap > .member-list > .members > li{
+    display: inline;
+    padding: 10px;
+    font-size: 12px;
+}
+.member-wrap > .member-list > .members > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.member-wrap>.member-list>.members>li::after{
+    content: '';
+    display: inline-block;
+    background-color: #eee;
+    width: 1px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.member-wrap > .member-list > .members > li > .mount{
+    display: inline-block;
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #0078ff;
+    color: white;
+    margin-left: 5px;
+    width: 18px;
+    height: 16px;
+    padding-top: 2px;
+}
+.member-wrap > .member-list > .event{
+    display: inline;
+    padding: 10px;
+    font-size: 12px;
+    color: #048eff;
+    font-weight: 700;
+}
+.member-wrap > .member-list > .event:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }

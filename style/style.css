@@ -11,6 +11,8 @@ header {
     background-color: black;
     height: 78px;
 }
+/*Logo
+---------------------------*/
 h1 {
     display: inline-block;
 }
@@ -23,6 +25,8 @@ h1>a {
     text-decoration: none;
     line-height: 75px;
 }
+/*Search
+--------------------------*/
 .search-wrap {
     display: inline;
     position: absolute;
@@ -51,6 +55,8 @@ h1>a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*Ranking
+------------------------*/
 .rank-wrap{
     display: inline;
     margin-left: 300px;
@@ -73,6 +79,8 @@ h1>a {
     position: relative;
     top: 5px;
 }
+/*Navigation bar
+----------------------------------*/
 .list-wrap{
     display: inline;
     position: absolute;
@@ -97,6 +105,10 @@ h1>a {
     color: rgb(155, 102, 255);
     padding-left: 0px;
 }
+/*SECTION
+-----------------------*/
+/*Channel
+-----------------------*/
 .channel-wrap{
     height: 50px;
     background-color: #f3f3f3;
@@ -113,6 +125,8 @@ h1>a {
     padding-right: 18px;
     font-size: 14px;
 }
+/*Member
+---------------------------*/
 .member-wrap{
     padding-top: 10px;
     padding-bottom: 10px;

@@ -114,7 +114,7 @@ h1>a {
 }
 .list-wrap > .list > li > ul{
     position: absolute;
-    margin-top: 10px;
+    margin-top: 5px;
     display: none;
 }
 .list-wrap > .list > li > ul > li{
@@ -165,6 +165,12 @@ h1>a {
 .list-wrap > .list > li:hover ul{
     display: block;
 }
+.list-wrap>.list>li > ul:hover{
+    display: block;
+}
+.list-wrap>.list>li>ul>li:hover{
+    background-color: #f3f3f3;
+}
 /*SECTION
 -----------------------*/
 /*Channel
@@ -188,13 +194,14 @@ h1>a {
 /*Member
 ---------------------------*/
 .member-wrap{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 30px;
+    padding-left: 15px;
     border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .member-wrap > .login{
     display: inline;
-    margin-left: 15px;
     width: 150px;
     height: 28px;
     background-color: white;
@@ -275,6 +282,34 @@ h1>a {
     text-decoration: underline;
     cursor: pointer;
 }
+/*left-menu
+--------------------------*/
+.left-menu{
+    display: inline-block;
+    width: 270px;
+    border-right: 2px solid #eee;
+}
+.left-menu > .select{
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.left-menu > .select > button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    font-weight: 700;
+}
+.left-menu > .select > .product{
+    margin-right: -6px;
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-right: none;
+}
+.left-menu > .select > .brand{
+    color: #B2B2B2;
+}
 /*size-down
 -----------------------*/
 @media (max-width: 1500px){
@@ -283,5 +318,8 @@ h1>a {
         position: relative;
         left: 610px;
         top: -2px;
+    }
+    h1{
+        margin-right: -6px;
     }
 }

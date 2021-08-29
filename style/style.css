@@ -162,6 +162,9 @@ h1>a {
 .list-wrap>.list>li>.sale-list>.red {
     color: red;
 }
+.list-wrap > .list > li:hover ul{
+    display: block;
+}
 /*SECTION
 -----------------------*/
 /*Channel
@@ -218,6 +221,7 @@ h1>a {
 }
 .member-wrap > .member-list > .connect{
     font-size: 12px;
+    font-weight: 500;
     color: #00a3ff;
     padding: 10px;
 }
@@ -271,6 +275,8 @@ h1>a {
     text-decoration: underline;
     cursor: pointer;
 }
+/*size-down
+-----------------------*/
 @media (max-width: 1500px){
     .list-wrap {
         display: inline;

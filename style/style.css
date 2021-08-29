@@ -196,7 +196,7 @@ h1>a {
 .member-wrap{
     height: 30px;
     padding-left: 15px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 1px solid #dddddd;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -287,9 +287,16 @@ h1>a {
 .left-menu{
     display: inline-block;
     width: 270px;
-    border-right: 2px solid #eee;
+    border-right: 1px solid #dddddd;
+}
+.open-button{
+    display: inline;
+    position: absolute;
+    left: 270px;
+    top: 178px;
 }
 .left-menu > .select{
+    display: block;
     width: 240px;
     margin-left: auto;
     margin-right: auto;
@@ -300,6 +307,7 @@ h1>a {
     height: 40px;
     border: 1px solid #dddddd;
     font-weight: 700;
+    font-size: 12px;
 }
 .left-menu > .select > .product{
     margin-right: -6px;
@@ -309,6 +317,7 @@ h1>a {
 }
 .left-menu > .select > .brand{
     color: #B2B2B2;
+    background-color: #f3f3f3;
 }
 /*size-down
 -----------------------*/

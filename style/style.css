@@ -296,7 +296,8 @@ h1>a {
     width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .left-menu > .select > button{
     width: 120px;
@@ -315,13 +316,39 @@ h1>a {
     color: #B2B2B2;
     background-color: #f3f3f3;
 }
+.left-menu>.products-list>div>a{
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+
+}
+.left-menu > .products-list > div > a > h3{
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+}
+.left-menu>.products-list>div>a>.h3-english{
+    color: #b2b2b2;
+    font-size: 11px;
+}
+.left-menu>.products-list>div>a>.sign{
+    position: absolute;
+    right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 /* open-button 
 --------------------------*/
 .open-button {
     display: inline;
     position: relative;
     right: 6px;
-    bottom: 1px;
+    bottom: 55px;
     background-color: white;
     z-index: 1;
 }
@@ -335,14 +362,14 @@ h1>a {
     border-left: 1px solid #dddddd;
     padding: 10px;
     position: relative;
-    bottom: 9px;
+    bottom: 65px;
     right: 53px;
 
 }
 .main-display > .ranking > h2{
     position: relative;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     left: 40px;
     top: 5px;
 }

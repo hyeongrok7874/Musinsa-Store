@@ -297,7 +297,7 @@ h1>a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .left-menu > .select > button{
     width: 120px;
@@ -321,7 +321,7 @@ h1>a {
     width: 240px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10px;
+    padding-top: 8px;
     border-bottom: 1px solid #dddddd;
     padding-bottom: 10px;
 
@@ -331,7 +331,7 @@ h1>a {
     font-size: 14px;
     font-weight: 600;
 }
-.left-menu>.products-list>div>a>.h3-english{
+.left-menu>.products-list>.best-products>a>.h3-english {
     color: #b2b2b2;
     font-size: 11px;
 }
@@ -341,14 +341,17 @@ h1>a {
     font-size: 15px;
     font-weight: bold;
 }
-
+.left-menu > .products-list > .best-products > a:hover{
+    cursor: pointer;
+    background-color: #f3f3f3;
+}
 /* open-button 
 --------------------------*/
 .open-button {
     display: inline;
-    position: relative;
-    right: 6px;
-    bottom: 383px;
+    position: absolute;
+    left: 270px;
+    top: 178px;
     z-index: 1;
 }
 .open-button:hover {
@@ -360,10 +363,8 @@ h1>a {
     display: inline-block;
     border-left: 1px solid #dddddd;
     padding: 10px;
-    position: relative;
-    bottom: 390px;
-    left: -53px;
-
+    position: absolute;
+    top: 180px;
 }
 .main-display > .ranking > h2{
     position: relative;

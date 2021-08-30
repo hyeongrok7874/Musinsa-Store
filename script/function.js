@@ -8,7 +8,6 @@ openButton.onclick = function () {
     }
     else {
         leftMenu.style.display = "inline-block";
-        openButton.style.right = "6px";
-        openButton.style.bottom = "383px";
+        openButton.style.left = "270px";
     }
 }

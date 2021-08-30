@@ -287,13 +287,9 @@ h1>a {
 .left-menu{
     display: inline-block;
     width: 270px;
-    border-right: 1px solid #dddddd;
-}
-.open-button{
-    display: inline;
-    position: absolute;
-    left: 270px;
-    top: 178px;
+    /* border-right: 1px solid #dddddd; */
+    position: relative;
+    bottom: 5px;
 }
 .left-menu > .select{
     display: block;
@@ -318,6 +314,37 @@ h1>a {
 .left-menu > .select > .brand{
     color: #B2B2B2;
     background-color: #f3f3f3;
+}
+/* open-button 
+--------------------------*/
+.open-button {
+    display: inline;
+    position: relative;
+    right: 6px;
+    bottom: 1px;
+    background-color: white;
+    z-index: 1;
+}
+.open-button:hover {
+    cursor: pointer;
+}
+/* main
+----------------------- */
+.main-display{
+    display: inline-block;
+    border-left: 1px solid #dddddd;
+    padding: 10px;
+    position: relative;
+    bottom: 9px;
+    right: 53px;
+
+}
+.main-display > .ranking > h2{
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    left: 40px;
+    top: 5px;
 }
 /*size-down
 -----------------------*/

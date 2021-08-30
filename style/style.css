@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Verdana', "gulim", "굴림", sans-serif;
+}
+/*HEADER
+----------------------------*/
+header {
+    background-color: black;
+    height: 78px;
+}
+ul,ol,li {
+    list-style: none;
+}
+/*Logo
+---------------------------*/
+h1 {
+    display: inline-block;
+}
+h1>a {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    line-height: 75px;
+}
+/*Search
+--------------------------*/
+.search-wrap {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    height: 32px;
+    margin-left: 15px;
+    border: 1px solid #373737;
+}
+.search-wrap>.search {
+    width: 225px;
+    height: 31px;
+    color: black;
+    border-radius: 0;
+    border: 1px solid #373737;
+    position: relative;
+    padding-left: 3px;
+    bottom: 10px;
+}
+.search-wrap>.search-button {
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    position: relative;
+    right: 5px;
+    background-image: url("../resources/search.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Ranking
+------------------------*/
+.rank-wrap{
+    display: inline;
+    margin-left: 300px;
+    position: absolute;
+    top: 15px;
+}
+.rank-wrap > span{
+    color: white;
+    font-weight: bold;
+}
+.rank{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+.product-name{
+    font-size: 12px;
+    position: relative;
+    top: 10px;
+}
+.change-rank{
+    margin-left: 100px;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
+/*Navigation bar
+----------------------------------*/
+.list-wrap{
+    display: inline;
+    position: absolute;
+    right: 1.5%;
+    top: 20px;
+}
+.list-wrap > .list{
+    display: inline;
+}
+.list-wrap > .list > li{
+    display: inline-block;
+    color: white;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+.list-wrap > .list > li:hover{
+    cursor: pointer;
+}
+.list-wrap > .list > .purple{
+    color: rgb(155, 102, 255);
+    padding-left: 0px;
+}
+.list-wrap > .list > li > ul{
+    position: absolute;
+    margin-top: 5px;
+    display: none;
+}
+.list-wrap > .list > li > ul > li{
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border: 1px solid #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list-wrap>.list>li>.ranking-list {
+    left: -45px;
+}
+
+.list-wrap>.list>li>.update-list {
+    left: -30px;
+}
+
+.list-wrap>.list>li>.style-list {
+    left: -35px;
+}
+
+.list-wrap>.list>li>.special-list {
+    left: -35px;
+}
+
+.list-wrap>.list>li>.content-list {
+    left: -35px;
+}
+
+.list-wrap>.list>li>.sale-list {
+    left: -45px;
+}
+
+.list-wrap>.list>li>.event-list {
+    left: -35px;
+}
+
+.list-wrap>.list>li>.magazine-list {
+    left: -35px;
+}
+
+.list-wrap>.list>li>.sale-list>.red {
+    color: red;
+}
+.list-wrap > .list > li:hover ul{
+    display: block;
+}
+.list-wrap>.list>li > ul:hover{
+    display: block;
+}
+.list-wrap>.list>li>ul>li:hover{
+    background-color: #f3f3f3;
+}
+/*SECTION
+-----------------------*/
+/*Channel
+-----------------------*/
+.channel-wrap{
+    height: 50px;
+    background-color: #f3f3f3;
+}
+.channel-wrap > .channels{
+    display: inline-block;
+    padding-left: 20px;
+}
+.channel-wrap > .channels > button{
+    border: 0;
+    background-color: #f3f3f3;
+    color: #b2b2b2;
+    padding-top: 17px;
+    padding-right: 18px;
+    font-size: 14px;
+}
+/*Member
+---------------------------*/
+.member-wrap{
+    height: 30px;
+    padding-left: 15px;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.member-wrap > .login{
+    display: inline;
+    width: 150px;
+    height: 28px;
+    background-color: white;
+    border: 1px solid #000000;
+    font-size: 12px;
+}
+.member-wrap > .login:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.member-wrap > .member-list {
+    display: inline;
+}
+.member-wrap > .member-list > .connect::after{
+    content: '';
+    display: inline-block;
+    background-color: #eee;
+    width: 1px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.member-wrap > .member-list > .connect{
+    font-size: 12px;
+    font-weight: 500;
+    color: #00a3ff;
+    padding: 10px;
+}
+.member-wrap > .member-list > .connect:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.member-wrap > .member-list > .members{
+    display: inline;
+}
+.member-wrap > .member-list > .members > li{
+    display: inline;
+    padding: 10px;
+    font-size: 12px;
+}
+.member-wrap > .member-list > .members > li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.member-wrap>.member-list>.members>li::after{
+    content: '';
+    display: inline-block;
+    background-color: #eee;
+    width: 1px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    left: 10px;
+}
+.member-wrap > .member-list > .members > li > .mount{
+    display: inline-block;
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #0078ff;
+    color: white;
+    margin-left: 5px;
+    width: 18px;
+    height: 16px;
+    padding-top: 2px;
+}
+.member-wrap > .member-list > .event{
+    display: inline;
+    padding: 10px;
+    font-size: 12px;
+    color: #048eff;
+    font-weight: 700;
+}
+.member-wrap > .member-list > .event:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*left-menu
+--------------------------*/
+.left-menu{
+    display: inline-block;
+    width: 270px;
+    /* border-right: 1px solid #dddddd; */
+    position: relative;
+    bottom: 5px;
+}
+.left-menu > .select{
+    display: block;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.left-menu > .select > button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    font-weight: 700;
+    font-size: 12px;
+}
+.left-menu > .select > .product{
+    margin-right: -6px;
+    background-color: white;
+    border-bottom: 1px solid white;
+    border-right: none;
+}
+.left-menu > .select > .brand{
+    color: #B2B2B2;
+    background-color: #f3f3f3;
+}
+/* open-button 
+--------------------------*/
+.open-button {
+    display: inline;
+    position: relative;
+    right: 6px;
+    bottom: 1px;
+    background-color: white;
+    z-index: 1;
+}
+.open-button:hover {
+    cursor: pointer;
+}
+/* main
+----------------------- */
+.main-display{
+    display: inline-block;
+    border-left: 1px solid #dddddd;
+    padding: 10px;
+    position: relative;
+    bottom: 9px;
+    right: 53px;
+
+}
+.main-display > .ranking > h2{
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    left: 40px;
+    top: 5px;
+}
+/*size-down
+-----------------------*/
+@media (max-width: 1500px){
+    .list-wrap {
+        display: inline;
+        position: relative;
+        left: 610px;
+        top: -2px;
+    }
+    h1{
+        margin-right: -6px;
+    }
+}

@@ -348,8 +348,7 @@ h1>a {
     display: inline;
     position: relative;
     right: 6px;
-    bottom: 55px;
-    background-color: white;
+    bottom: 383px;
     z-index: 1;
 }
 .open-button:hover {
@@ -362,8 +361,8 @@ h1>a {
     border-left: 1px solid #dddddd;
     padding: 10px;
     position: relative;
-    bottom: 65px;
-    right: 53px;
+    bottom: 390px;
+    left: -53px;
 
 }
 .main-display > .ranking > h2{

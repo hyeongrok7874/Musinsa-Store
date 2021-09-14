@@ -359,20 +359,7 @@ h1>a {
 }
 /* main
 ----------------------- */
-.main-display{
-    display: inline-block;
-    border-left: 1px solid #dddddd;
-    padding: 10px;
-    position: absolute;
-    top: 180px;
-}
-.main-display > .ranking > h2{
-    position: relative;
-    font-weight: 600;
-    font-size: 20px;
-    left: 40px;
-    top: 5px;
-}
+
 /*size-down
 -----------------------*/
 @media (max-width: 1500px){
